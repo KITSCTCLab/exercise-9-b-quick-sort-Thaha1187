@@ -8,7 +8,7 @@ def partition(array, low, high):
             i = i + 1
             (array[i], array[j]) = (array[j], array[i])
     (array[i + 1], array[high]) = (array[high], array[i + 1])
-    return i + 1
+    return i + 
 
 def quick_sort(array, low, high):
     if low < high:
@@ -24,5 +24,5 @@ for item in input_data.split(', '):
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
-print(quick_sort(data, 0, len(data)-1)
+print(quick_sort(data, 0, len(data)-1))
 
