@@ -11,7 +11,7 @@ def partition(array, low, high):
     return i + 1
 
 def quick_sort(array, low, high):
-    if low < high
+    if low < high:
         pi = partition(array, low, high)
         quick_sort(array, low, pi - 1)
         quick_sort(array, pi + 1, high)
@@ -19,7 +19,7 @@ def quick_sort(array, low, high):
 
 input_data = input()
 data = []
-for item in input_data.split(', '):
+for item in input_data.split(', ')
   if item.isnumeric():
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
